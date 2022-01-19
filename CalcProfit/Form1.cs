@@ -11,9 +11,9 @@ using System.Windows.Forms;
 using MaterialSkin;
 namespace CalcProfit
 {
-    public partial class Form1 : MaterialSkin.Controls.MaterialForm
+    public partial class frmMain : MaterialSkin.Controls.MaterialForm
     {
-        public Form1()
+        public frmMain()
         {
             InitializeComponent();
         }
@@ -77,6 +77,11 @@ namespace CalcProfit
         private void materialButton4_Click(object sender, EventArgs e)
         {
             Process.Start("https://vk.com/id219176419");
+        }
+
+        private void materialLabel1_Click(object sender, EventArgs e)
+        {
+            Process.Start("https://github.com/michaelpichugin/CalcProfit/releases");
         }
     }
 }
